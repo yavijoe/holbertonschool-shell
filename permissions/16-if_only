@@ -1,2 +1,2 @@
 #!/bin/bash
-if if (stat -c "%U" hello) = "guillaume" then sudo chown vincent helo
+if [ $ (stat -c "%U" hello) = "guillaume" ]; then sudo chown vincent hello
