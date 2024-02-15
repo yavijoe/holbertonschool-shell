@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "abcdef" | rev
+echo | rev
