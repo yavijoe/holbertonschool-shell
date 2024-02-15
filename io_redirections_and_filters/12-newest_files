@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lt | grep -v '^d' | grep -v '^total' | grep -v '^$' | head -10 |
+ls -t | heads 
