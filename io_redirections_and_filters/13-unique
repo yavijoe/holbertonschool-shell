@@ -1,2 +1,2 @@
 #!/bin/bash
-sort <&0 | uniq -c | while read -r count word; do [ "$count" -eq 1 ] && echo "$word"; done
+cat <file_name> | sort | uniq -c | grep -e '^\s.*1\s'
