@@ -1,0 +1,2 @@
+#!/bin/bas
+rep "^[A-Za-z]" /etc/ssh/sshd_config
