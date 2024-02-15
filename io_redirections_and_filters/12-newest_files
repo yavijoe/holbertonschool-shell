@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lt | grep '^-' | awk '{print $NF}' | head -10
+ls -lt | grep -v '^d' | grep -v '^total' | grep -v '^$' | head -10 |
