@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "acCdC" | tr -d 'cC'
