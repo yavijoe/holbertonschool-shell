@@ -1,0 +1,2 @@
+#!/bash/bin
+printf %s\\n {a..n}{a..z} {p..z}{a..z}
